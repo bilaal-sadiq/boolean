@@ -26,6 +26,10 @@ for (let i = 1; i <= 100; i++) {
 }
 
 while (bombslist) {
+    // Genreate a random number between 1 and 100, 
+    const randomNumber = (Math.random() * totalCells) + 1;
+
+    
     bombslist.push('Hello'); 
 
 }
